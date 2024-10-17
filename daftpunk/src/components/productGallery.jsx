@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import './ProductGallery.css';
+import "./ProductGallery.css";
 
 const ProductGallery = ({ products, addToCart }) => {
   return (
@@ -11,7 +11,9 @@ const ProductGallery = ({ products, addToCart }) => {
             <h3>{product.name}</h3>
             <p>Price: €{product.price}</p>
             <p>{product.description}</p>
-            <button onClick={() => addToCart(product)}>Add to your shopping bag</button>
+            <button onClick={() => addToCart(product)}>
+              Add to your shopping bag
+            </button>
           </figcaption>
         </figure>
       ))}

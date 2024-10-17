@@ -1,12 +1,12 @@
-import "./footer.css"
+import "./footer.css";
 const Footer = () => {
-    return (
-        <>
-        <footer>
+  return (
+    <>
+      <footer>
         <p>&copy; 2024 Daft Punk</p>
-        </footer>
-        </>
-    )
+      </footer>
+    </>
+  );
 };
 
 export default Footer;

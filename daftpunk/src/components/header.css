@@ -1,101 +1,99 @@
 header {
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #000;
-    padding: 0 20px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding: 0 20px;
 }
 
 header img {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 
 .cart-icon {
-    position: relative;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .cart-icon svg {
-    width: 24px; 
-    height: 24px; 
+  width: 24px;
+  height: 24px;
 }
 
 .cart-icon span {
-    background-color: #000;
-    color: #fff;
-    border-radius: 50%;
-    font-family: Helvetica, sans-serif;
-    padding: 0 4px;
-    margin-left: 5px;
-    font-size: 14px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  font-family: Helvetica, sans-serif;
+  padding: 0 4px;
+  margin-left: 5px;
+  font-size: 14px;
 }
 
-
 .cart-dropdown {
-    position: absolute;
-    right: 20px;
-    top: 50px;
-    width: 300px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    z-index: 1000;
-    font-family: Helvetica, sans-serif;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1000;
+  font-family: Helvetica, sans-serif;
 }
 
 .cart-dropdown ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .cart-dropdown li {
-    display: flex;
-    height: 10em;
-    align-items: c;
-    padding: 18px 0;
-    font-size: 0.8em;
+  display: flex;
+  height: 10em;
+  align-items: c;
+  padding: 18px 0;
+  font-size: 0.8em;
 }
 
 .cart-dropdown img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    padding-right: 10px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  padding-right: 10px;
 }
 
 .cart-dropdown button {
-    background: none;
-    border: none;
-    color: red;
-    cursor: pointer;
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
 }
 
 .quantity-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #ddd;
-    padding: 5px 10px;
-    border-radius: 8px;
-    background-color: #f5f5f5;
-    max-width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  max-width: 120px;
 }
 
 .quantity-container button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: bold;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .quantity-container span {
-    font-size: 16px;
-    font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 }
-
