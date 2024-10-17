@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import './ProductGallery.css';
 
-const ProductGallery = ({ products }) => {
+const ProductGallery = ({ products, addToCart }) => {
   return (
     <div className="product-gallery">
       {products.map((product, index) => (
@@ -9,9 +9,9 @@ const ProductGallery = ({ products }) => {
           <img src={product.imageSrc} alt={product.altText} />
           <figcaption>
             <h3>{product.name}</h3>
-            <p>Price: {product.price}</p>
+            <p>Price: €{product.price}</p>
             <p>{product.description}</p>
-            <button>Add to your shopping bag</button>
+            <button onClick={() => addToCart(product)}>Add to your shopping bag</button>
           </figcaption>
         </figure>
       ))}
