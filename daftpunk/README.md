@@ -1,8 +1,25 @@
-# React + Vite
+# Daft Punk Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is an exercise completed for a frontend course. It includes a web interface based on Daft Punk and allows you to view the work after installing dependencies and running a local server.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Steps to run the project:
+1. **Clone the repository:** Clone this repository using the following command in your terminal: ``` git clone https://github.com/beyegb1n/frontendcourses.git ```
+
+2. **Navigate to the project folder:** Move to the `daftpunk` folder: ```cd frontendcourses/daftpunk ```
+
+3. **Install dependencies:** Install the project dependencies using `npm`: ```npm install ``` 
+
+4. **Start the local server:** Start the local server using the following command: ``` npm run dev ```
+
+5. **Access the application:** Once the server is running, open your browser and navigate to the provided address (usually `http://localhost:3000`) to view the project.
+
+## Technologies used
+HTML, CSS, JavaScript  
+React.js  
+Node.js
+
+## Author
+Emmanuel Kouassi
